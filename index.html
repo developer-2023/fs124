@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex justify-content: left, right, center</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+        }
+        h1 {text-align: center;}
+        .container {
+            display: flex;
+            border: 1px solid white;
+            background: grey;
+        }
+        .inner {
+            border: 1px solid white;
+            background: green;
+        }
+        .left { justify-content: left;} /* default */
+        .center { justify-content: center;}
+        .right { justify-content: right;}
+        .space-around { justify-content: space-around;}
+        .space-between { justify-content: space-between;}
+        .space-evenly { justify-content:space-evenly;}
+    </style>
+</head>
+<body>
+    <h1>Justify content</h1>
+    <div class="container left">
+        <div class="inner">1</div>
+        <div class="inner">2</div>
+        <div class="inner">3</div>
+        <div class="inner">4</div>
+        <div class="inner">5</div>
+        <div class="inner">6</div>
+        <div class="inner">7</div>
+        <div class="inner">8</div>
+        <div class="inner">9</div>
+        <div class="inner">10</div>
+        <div class="inner">11</div>
+        <div class="inner">12</div>
+    </div>
+    <br>
+    <div class="container center">
+        <div class="inner">1</div>
+        <div class="inner">2</div>
+        <div class="inner">3</div>
+        <div class="inner">4</div>
+        <div class="inner">5</div>
+        <div class="inner">6</div>
+        <div class="inner">7</div>
+        <div class="inner">8</div>
+        <div class="inner">9</div>
+        <div class="inner">10</div>
+        <div class="inner">11</div>
+        <div class="inner">12</div>
+    </div>
+    <br>
+    <div class="container right">
+        <div class="inner">1</div>
+        <div class="inner">2</div>
+        <div class="inner">3</div>
+        <div class="inner">4</div>
+        <div class="inner">5</div>
+        <div class="inner">6</div>
+        <div class="inner">7</div>
+        <div class="inner">8</div>
+        <div class="inner">9</div>
+        <div class="inner">10</div>
+        <div class="inner">11</div>
+        <div class="inner">12</div>
+    </div>
+    <br>
+    <div class="container space-around">
+        <div class="inner">1</div>
+        <div class="inner">2</div>
+        <div class="inner">3</div>
+        <div class="inner">4</div>
+        <div class="inner">5</div>
+        <div class="inner">6</div>
+        <div class="inner">7</div>
+        <div class="inner">8</div>
+        <div class="inner">9</div>
+        <div class="inner">10</div>
+        <div class="inner">11</div>
+        <div class="inner">12</div>
+    </div>
+    <br>
+    <div class="container space-between">
+        <div class="inner">1</div>
+        <div class="inner">2</div>
+        <div class="inner">3</div>
+        <div class="inner">4</div>
+        <div class="inner">5</div>
+        <div class="inner">6</div>
+        <div class="inner">7</div>
+        <div class="inner">8</div>
+        <div class="inner">9</div>
+        <div class="inner">10</div>
+        <div class="inner">11</div>
+        <div class="inner">12</div>
+    </div>
+    <br>
+    <div class="container space-evenly">
+        <div class="inner">1</div>
+        <div class="inner">2</div>
+        <div class="inner">3</div>
+        <div class="inner">4</div>
+        <div class="inner">5</div>
+        <div class="inner">6</div>
+        <div class="inner">7</div>
+        <div class="inner">8</div>
+        <div class="inner">9</div>
+        <div class="inner">10</div>
+        <div class="inner">11</div>
+        <div class="inner">12</div>
+    </div>
+</body>
+</html>
